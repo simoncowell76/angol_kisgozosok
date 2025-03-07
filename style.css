@@ -1,10 +1,106 @@
-h2{
+body {
+    background-color: gray;
     text-align: center;
+    margin: auto;
+    width: 80%;
     color: white;
 }
-body{
-    background-color: lightgray;
-    max-width: 1200px;
-    width: 80%;
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
+    color: black;
 }
-main
+h2 {
+    background-color: rgb(87, 87, 87);
+    font-size: 1.5vw;
+    margin: 0;
+    margin-bottom: 3vw;
+    padding: 1vw;
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+    border: 10px solid darkgrey;
+    border-radius: 1vw;
+}
+article {
+    margin: 1vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-size: 3vw;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1vw;
+    background-color:rgb(87, 87, 87);
+}
+nav li {
+    text-decoration: none;
+    list-style-type:none;
+    border: 0.1vw solid white;
+    margin: 0.25vw;
+    color: white;
+}
+
+@media screen and (max-width: 1350px) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section {
+        grid-template-columns: 1fr;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+}
+#elso {
+    margin: 1vw;
+    border: 5px solid black;
+}
+#masodik {
+    margin: 1vw;
+    border: 5px solid black;
+}
+#harmadik {
+    margin: 1vw;
+    border: 5px solid black;
+}
+#negyedik {
+    margin: 1vw;
+    border: 5px solid black;
+}
+#otodik {
+    margin: 1vw;
+    border: 5px solid black;
+}
+#hatodik {
+    margin: 1vw;
+    border: 5px solid black;
+}
+li:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
